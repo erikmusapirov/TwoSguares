@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73B3CAA926CFA6FD003F74BA /* TwoSguares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoSguares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B3CAAC26CFA6FD003F74BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B3CAAE26CFA6FD003F74BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		73B3CAB026CFA6FD003F74BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +23,7 @@
 		73B3CAB526CFA6FE003F74BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B3CAB826CFA6FE003F74BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B3CABA26CFA6FE003F74BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B3CAC026D01F4C003F74BA /* TwoSguares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoSguares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,16 +41,8 @@
 			isa = PBXGroup;
 			children = (
 				73B3CAAB26CFA6FD003F74BA /* TwoSguares */,
-				73B3CAAA26CFA6FD003F74BA /* Products */,
+				73B3CAC026D01F4C003F74BA /* TwoSguares.app */,
 			);
-			sourceTree = "<group>";
-		};
-		73B3CAAA26CFA6FD003F74BA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73B3CAA926CFA6FD003F74BA /* TwoSguares.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		73B3CAAB26CFA6FD003F74BA /* TwoSguares */ = {
@@ -84,7 +76,7 @@
 			);
 			name = TwoSguares;
 			productName = TwoSguares;
-			productReference = 73B3CAA926CFA6FD003F74BA /* TwoSguares.app */;
+			productReference = 73B3CAC026D01F4C003F74BA /* TwoSguares.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +102,7 @@
 				Base,
 			);
 			mainGroup = 73B3CAA026CFA6FD003F74BA;
-			productRefGroup = 73B3CAAA26CFA6FD003F74BA /* Products */;
+			productRefGroup = 73B3CAA026CFA6FD003F74BA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -286,15 +278,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7PD4B2J6F;
 				INFOPLIST_FILE = TwoSguares/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TwoSguares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -305,15 +300,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7PD4B2J6F;
 				INFOPLIST_FILE = TwoSguares/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TwoSguares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
